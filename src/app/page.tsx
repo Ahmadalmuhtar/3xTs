@@ -74,8 +74,8 @@ function CaseStudies({
       >
         <p>
           We firmly believe in the transformative power of technology to address
-          humanity's most pressing issues, recognizing its dual role as both a
-          solution and a challenge.
+          humanity<span>'</span>s most pressing issues, recognizing its dual
+          role as both a solution and a challenge.
         </p>
       </SectionIntro>
       <Container className="mt-16">
