@@ -45,7 +45,7 @@ function Culture() {
           We prioritize trust, allowing our team the flexibility to work autonomously and efficiently, regardless of the time.
           </GridListItem>
           <GridListItem title="Compassion" invert>
-            YWe recognize the importance of empathy and respect the privacy of our team members' personal lives.
+            YWe recognize the importance of empathy and respect the privacy of our team members&#39' personal lives.
           </GridListItem>
         </GridList>
       </Container>
