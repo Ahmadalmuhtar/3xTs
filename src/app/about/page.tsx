@@ -29,26 +29,23 @@ function Culture() {
     <div className="mt-24 rounded-4xl bg-neutral-950 py-24 sm:mt-32 lg:mt-40 lg:py-32">
       <SectionIntro
         eyebrow="Our culture"
-        title="Balance your passion with your passion for life."
+        title="Embrace your passion, embrace life."
         invert
       >
         <p>
-          We are a group of like-minded people who share the same core values.
+        Unified by shared principles, we are a cohesive group of kindred spirits.
         </p>
       </SectionIntro>
       <Container className="mt-16">
         <GridList>
           <GridListItem title="Loyalty" invert>
-            Our team has been with us since the beginning because none of them
-            are allowed to have LinkedIn profiles.
+          Our steadfast team remains by our side since inception, bound by a commitment that extends beyond professional networks.
           </GridListItem>
           <GridListItem title="Trust" invert>
-            We don’t care when our team works just as long as they are working
-            every waking second.
+          We prioritize trust, allowing our team the flexibility to work autonomously and efficiently, regardless of the time.
           </GridListItem>
           <GridListItem title="Compassion" invert>
-            You never know what someone is going through at home and we make
-            sure to never find out.
+            YWe recognize the importance of empathy and respect the privacy of our team members&#39' personal lives.
           </GridListItem>
         </GridList>
       </Container>
@@ -189,31 +186,40 @@ export default async function About() {
 
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro
+        eyebrow="About us"
+        title="Empowering Success Through Collaboration"
+      >
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          At The Teutonic Tech Titans, collaboration is our cornerstone. We
+          firmly believe that our strength emanates from our collaborative
+          ethos, where we place our clients at the forefront of every endeavor.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+            Conceived by three visionary minds who identified the disparity in
+            pricing between developer studios and in-house teams, The Teutonic
+            Tech Titans embarked on a journey to reshape the industry landscape.
+            Since our inception, we've embraced a unique philosophy: diverging
+            from traditional pricing models, we boldly charge triple, ensuring
+            exceptional quality and steadfast dedication to our clients'
+            success.
           </p>
           <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
+            At The Teutonic Tech Titans, we're not just coworkers — we're a
+            tight-knit family. Our culture values dedication and commitment,
+            often reflected in our modest compensation and expectation for late
+            hours. We encourage our team to bring their authentic selves to work
+            every day. In return, we simply request their presence until at
+            least 6:30 pm, ensuring a harmonious and collaborative environment.
           </p>
         </div>
       </PageIntro>
       <Container className="mt-16">
         <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
+          <StatListItem value="3" label="Underpaid employees" />
           <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
+          <StatListItem value="$1,5M" label="Invoices billed" />
         </StatList>
       </Container>
 
@@ -223,8 +229,8 @@ export default async function About() {
 
       <PageLinks
         className="mt-24 sm:mt-32 lg:mt-40"
-        title="From the blog"
-        intro="Our team of experienced designers and developers has just one thing on their mind; working on your ideas to draw a smile on the face of your users worldwide. From conducting Brand Sprints to UX Design."
+        title="Crafting Delightful Experiences: Our Promise to You"
+        intro="With a team of seasoned designers and developers dedicated to bringing your ideas to life, our singular focus is on delighting your users worldwide. Whether through Brand Sprints or meticulous UX design, we're here to ensure your success."
         pages={blogArticles}
       />
 
