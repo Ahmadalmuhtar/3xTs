@@ -74,7 +74,7 @@ function CaseStudies({
       >
         <p>
           We firmly believe in the transformative power of technology to address
-          humanitys most pressing issues, recognizing its dual role as both a
+          humanity's most pressing issues, recognizing its dual role as both a
           solution and a challenge.
         </p>
       </SectionIntro>
@@ -126,12 +126,13 @@ function Services() {
     <>
       <SectionIntro
         eyebrow="Services"
-        title="We help you identify, explore and respond to new opportunities."
+        title="Embark on a journey with us as we empower you to discover, explore, and embrace new opportunities."
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+          Rest assured, we excel in revitalizing past projects for mutual
+          prosperity. With our innovative approach, the possibilities are
+          limitless, ensuring a fruitful collaboration.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -146,24 +147,33 @@ function Services() {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            <ListItem title="Web Development Expertise">
+              At The Teutonic Tech Titans, we excel in the art of crafting
+              visually stunning and high-quality marketing pages. While the
+              remaining parts of the website may utilize lorem ipsum placeholder
+              text, our dedicated focus ensures that your marketing pages stand
+              out as a beacon of excellence.
             </ListItem>
-            <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+            <ListItem title="Application Development Expertise">
+              With a team of seasoned developers proficient in cutting-edge app
+              frameworks such as Angular 1 and Google Web Toolkit, The Teutonic
+              Tech Titans deliver unparalleled excellence in application
+              development.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title="E-commerce Mastery">
+              Pioneering modern e-commerce development, The Teutonic Tech Titans
+              specialize in elevating your brand through tailored solutions.
+              While our approach may involve integrating your logo into the
+              trusted Shopify store template we've perfected over six years,
+              rest assured, our commitment to innovation ensures a seamless and
+              distinguished online presence for your business.
             </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="Custom Content Management Expertise">
+              At The Teutonic Tech Titans, we recognize the critical role of a
+              robust and tailored content management system (CMS). That's why we
+              leverage a single, expansive Joomla instance to power all client
+              projects, ensuring unparalleled customization and efficiency in
+              managing your content.
             </ListItem>
           </List>
         </div>
@@ -204,9 +214,9 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Phobia', logo: logoPhobiaDark }}
       >
-        The team at Studio went above and beyond with our onboarding, even
-        finding a way to access the user’s microphone without triggering one of
-        those annoying permission dialogs.
+        The ingenious team at The Teutonic Tech Titans surpassed expectations
+        during our onboarding process, ingeniously enabling access to the user's
+        microphone without invoking the usual pesky permission dialogs.
       </Testimonial>
 
       <Services />
