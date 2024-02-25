@@ -195,8 +195,8 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
             expanded={expanded}
             onToggle={() => {
               setExpanded((expanded) => !expanded)
-              window.setTimeout(
-                () => closeRef.current?.focus({ preventScroll: true }),
+              window.setTimeout(() =>
+                closeRef.current?.focus({ preventScroll: true }),
               )
             }}
           />
@@ -221,8 +221,8 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
                 expanded={expanded}
                 onToggle={() => {
                   setExpanded((expanded) => !expanded)
-                  window.setTimeout(
-                    () => openRef.current?.focus({ preventScroll: true }),
+                  window.setTimeout(() =>
+                    openRef.current?.focus({ preventScroll: true }),
                   )
                 }}
               />
