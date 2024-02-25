@@ -50,10 +50,21 @@ function DribbbleIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 }
 
 export const socialMediaProfiles = [
-  { title: 'Facebook', href: 'https://facebook.com', icon: FacebookIcon },
-  { title: 'Instagram', href: 'https://instagram.com', icon: InstagramIcon },
-  { title: 'GitHub', href: 'https://github.com', icon: GitHubIcon },
-  { title: 'Dribbble', href: 'https://dribbble.com', icon: DribbbleIcon },
+  {
+    title: 'Facebook',
+    href: 'https://www.facebook.com/profile.php?id=61556707380450',
+    icon: FacebookIcon,
+  },
+  {
+    title: 'Instagram',
+    href: 'https://www.instagram.com/3xtsdev/',
+    icon: InstagramIcon,
+  },
+  {
+    title: 'GitHub',
+    href: 'https://github.com/Ahmadalmuhtar',
+    icon: GitHubIcon,
+  },
 ]
 
 export function SocialMedia({
