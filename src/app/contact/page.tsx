@@ -119,7 +119,7 @@ function ContactDetails() {
               <dt className="font-semibold text-neutral-950">{label}</dt>
               <dd>
                 <Link
-                  href={`mailto:${email}`}
+                  href={`mailto:hello@3xts.com`}
                   className="text-neutral-600 hover:text-neutral-950"
                 >
                   {email}
