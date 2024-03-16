@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "prisma generate && npx prisma migrate dev",
     "start": "next start",
-    "lint": "next lint",
-    "prisma:generate": "prisma generate"
+    "lint": "next lint"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
