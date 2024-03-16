@@ -55,8 +55,6 @@ function RadioInput({
 function ContactForm() {
   async function handleSubmit(formData: FormData) {
     'use server'
-    console.log(formData)
-    console.log(formData.get('email'))
     await submitRequestAndSendEmail({
       name: formData.get('name') as string,
       email: formData.get('email') as string,
@@ -160,7 +158,7 @@ function ContactDetails() {
 }
 
 export const metadata: Metadata = {
-  title: 'Contact Us',
+  title: 'Home',
   description: 'Let’s work together. We can’t wait to hear from you.',
 }
 
