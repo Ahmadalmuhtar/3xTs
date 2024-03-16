@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && npx prisma migrate dev",
+    "build": "npm run prisma && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prisma": "prisma generate && prisma migrate dev"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
