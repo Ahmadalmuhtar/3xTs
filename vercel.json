@@ -1,0 +1,5 @@
+{
+  "build": {
+    "commands": ["npm run prisma:generate", "npx prisma migrate dev"]
+  }
+}
