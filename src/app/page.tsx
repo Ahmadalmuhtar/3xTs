@@ -9,6 +9,7 @@ import { FadeIn } from '@/components/FadeIn'
 import { Offices } from '@/components/Offices'
 import { PageIntro } from '@/components/PageIntro'
 import { SocialMedia } from '@/components/SocialMedia'
+import { submitRequestAndSendEmail } from './server'
 
 function TextInput({
   label,
@@ -52,9 +53,23 @@ function RadioInput({
 }
 
 function ContactForm() {
+  async function handleSubmit(formData: FormData) {
+    'use server'
+    console.log(formData)
+    console.log(formData.get('email'))
+    await submitRequestAndSendEmail({
+      name: formData.get('name') as string,
+      email: formData.get('email') as string,
+      company: (formData.get('company') as string) ?? null,
+      phone: formData.get('phone') as string,
+      message: formData.get('message') as string,
+      budget: formData.get('budget') as string,
+    })
+  }
+
   return (
     <FadeIn className="lg:order-last">
-      <form>
+      <form action={handleSubmit}>
         <h2 className="font-display text-base font-semibold text-neutral-950">
           Work inquiries
         </h2>
@@ -80,7 +95,11 @@ function ContactForm() {
                 <RadioInput label="$25K – $50K" name="budget" value="25" />
                 <RadioInput label="$50K – $100K" name="budget" value="50" />
                 <RadioInput label="$100K – $150K" name="budget" value="100" />
-                <RadioInput label="More than $150K" name="budget" value="150" />
+                <RadioInput
+                  label="More than $150K"
+                  name="budget"
+                  value="more than $150K"
+                />
               </div>
             </fieldset>
           </div>
